@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Oswald&family=Outfit:wght@400;700&family=Patrick+Hand&family=Playfair+Display&family=Potta+One&family=Roboto&family=Secular+One&family=Space+Mono:wght@700&family=Tilt+Neon&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Space Mono", monospace;
+  background-color: hsl(185, 41%, 84%);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 28px;
+  height: 362px;
+  width: 800px;
+  margin: auto;
+  margin-top: 200px;
+  padding-block: 8px;
+  column-gap: 5px;
+}
+.parent .parent-1 {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 32px;
+  border-radius: 17px;
+  width: 46%;
+  height: 90%;
+}
+.h-primary,
+.h-secondary {
+  font-size: 15px;
+}
+.h-primary {
+  color: hsl(184, 14%, 56%);
+}
+.child1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-top: 15px;
+}
+#number {
+  height: 38px;
+  width: 338px;
+  border-radius: 6px;
+  border: none;
+  font-family: "Space Mono", monospace;
+  text-align: right;
+  font-size: 24px;
+  background: url(./images/icon-dollar.svg) no-repeat;
+  background-color: hsl(185, 41%, 84%);
+  background-size: 13px 15px;
+  background-position: 5px center;
+  padding-block: 4px;
+}
+#number2 {
+  height: 40px;
+  width: 338px;
+  border-radius: 6px;
+  border: none;
+  font-family: "Space Mono", monospace;
+  text-align: right;
+  font-size: 24px;
+  background: url(./images/icon-person.svg) no-repeat ;
+  background-color: hsl(185, 41%, 84%);
+  background-size: 13px 15px;
+  background-position: 5px center;
+}
+#number:focus{
+    outline-color: hsl(184, 14%, 56%);
+}
+#number2:focus{
+  outline-color: rgb(255, 89, 0);;
+}
+.child2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: hsl(184, 14%, 56%);
+}
+.child2 .buttons {
+  display: flex;
+  column-gap: 15px;
+  row-gap: 15px;
+  flex-wrap: wrap;
+}
+.btn {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  height: 39px;
+  width: 104px;
+  font-family: "Space Mono", monospace;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover{
+  color: black;
+  background-color: hsl(185, 41%, 84%);
+}
+.child2 .buttons input {
+  height: 39px;
+  width: 104px;
+  font-family: "Space Mono", monospace;
+  text-align: -webkit-center;
+  background-color: hsl(185, 41%, 84%);
+  color:  hsl(183, 100%, 15%);
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+.child2 .buttons input:focus {
+  background-color: white;
+  
+}
+#span-0{
+  text-align: right;
+  margin-left: 58px;
+}
+
+.parent .parent-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 17px;
+  width: 46%;
+  height: 90%;
+  row-gap: 26px;
+  background-color: hsl(183, 100%, 15%);
+}
+#box-1 {
+  display: flex;
+
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+#box-2 {
+  display: flex;
+
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+.box-1-left {
+  display: flex;
+  flex-direction: column;
+}
+.box-1-right {
+  display: flex;
+  flex-direction: column;
+}
+#box-3 button {
+  width: 318px;
+  height: 39px;
+  border-radius: 8px;
+  border-style: none;
+  font-weight: 700;
+  background-color: hsl(184, 14%, 56%);
+  font-family: "Space Mono", monospace;
+  color:  hsl(183, 100%, 15%);
+
+}
+#box-3 button:hover{
+  background-color:  hsl(185, 41%, 84%);
+}
+
+.attribution {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 17px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

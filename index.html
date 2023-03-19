@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="mobile.css" />
+   
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    
+    <div class="parent">
+      <div class="parent-1">
+        <div class="child1">
+          <h1 class="h-primary">Bill</h1>
+          <input type="number" name="number" id="number"/>
+        </div>
+        <div class="child2">
+          <h1 class="h-primary" id="h1">Select Tip %</h1>
+          <div class="buttons">
+            <button class="btn" id="btn">5%</button>
+            <button class="btn" id="btn">10%</button>
+            <button class="btn" id="btn">15%</button>
+            <button class="btn" id="btn">25%</button>
+            <button class="btn" id="btn">50%</button>
+            <input
+              type="number"
+              name="number1"
+              id="number1"
+              placeholder="Custom"
+              min="0"
+            />
+          </div>
+        </div>
+        <div class="child3">
+          <h1 class="h-primary">Number of People <span id="span-0" style="color: rgb(255, 89, 0);"></span></h1>
+          <input type="number" name="number2" id="number2" min="0"/>
+        </div>
+        </div>
+        <div class="parent-2">
+          <div id="box-1">
+            <div class="box-1-left">
+              <h1 class="h-secondary" style="color: white;">Tip Amount</h1>
+              <p style="color: hsl(184, 14%, 56%);">/ person</p>
+            </div>
+            <div class="box-1-right">
+              <p style="color: hsl(184, 14%, 56%); font-size: 30px;">$<span id="span-1">0.00</span></p>
+            </div>
+          </div>
+          <div id="box-2">
+            <div class="box-2-left">
+              <h1 class="h-secondary" style="color: white;">Total</h1>
+              <p style="color: hsl(184, 14%, 56%);">/ person</p>
+            </div>
+            <div class="box-2-right">
+              <p style="color: hsl(184, 14%, 56%); font-size: 30px;">$<span id="span-2">0.00</span></p>
+            </div>
+          </div>
+          <div id="box-3">
+            <button type="reset" id="reset">RESET</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Pragyan</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

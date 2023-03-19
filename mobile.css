@@ -1,0 +1,65 @@
+@media (max-width: 376px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 705px;
+        width: 375px;
+        margin: 0 auto;
+        margin-top: 104px;
+    }
+    .parent .parent-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+        width: 90%;
+        height: 100%;
+    }
+    .h-primary{
+        margin-bottom: 7px;
+    }
+    .btn{
+        width: 148px;
+
+    }
+    .child2 .buttons input{
+        width: 148px;
+    }
+    #number{
+        width: 310px;
+    }
+    #number2{
+        width: 310px;
+    }
+
+    .parent .parent-2{
+        width: 310px;
+    height: 346px;
+    margin-bottom: 21px;
+    }
+    #box-3 button{
+        margin-bottom: 24px;
+        width: 273px;
+    }
+    
+    .child2 .buttons{
+        align-items: center;
+        justify-content: center;
+    }
+    #h1{
+        margin-left: 12px;
+    }
+    #box-2{
+        margin-bottom: 12px;
+    }
+    #span-0{
+        margin-left: 28px;
+    }
+    .attribution{
+        font-size: 12px;
+    }
+    
+
+}
